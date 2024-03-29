@@ -11,4 +11,4 @@ Completed Projects List
 This list showcases all completed projects, ordered chronologically from earliest to latest.
 
 1. QR Code Component
-[Detail]([https://www.frontendmentor.io/community](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)) | Code [Code]([https://www.frontendmentor.io/community](https://github.com/mervekara/frontend_mentor_challanges_solutions/tree/main/qr-code-component-main)) | [Live Solution](https://www.frontendmentor.io/community)
+[Detail]([https://www.frontendmentor.io/community](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | Code [Code]([https://www.frontendmentor.io/community](https://github.com/mervekara/frontend_mentor_challanges_solutions/tree/main/qr-code-component-main) | [Live Solution](https://www.frontendmentor.io/community)
