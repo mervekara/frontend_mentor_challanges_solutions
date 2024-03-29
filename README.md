@@ -1,5 +1,4 @@
-# frontend_mentor_challanges_solutions
-Frontend Mentor Challanges Solutions
+# Frontend Mentor Challanges Solutions
 Welcome aboard my streamlined repo, which harbors various challenges solutions I've completed on Frontend Mentor.
 
 Technologies
