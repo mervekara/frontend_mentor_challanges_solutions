@@ -6,15 +6,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Outfit", sans-serif;
+  padding: 1rem;
 }
 
 .barcode {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
-  width: 20rem;
-  height: 32rem;
+  max-width: 20rem;
   padding: 1rem;
   text-align: center;
   box-sizing: border-box;
@@ -31,6 +31,7 @@ body {
 }
 
 .barcode-image {
+  display: block;
   max-width: 100%;
   border-radius: 0.6rem;
 }
@@ -39,7 +40,7 @@ body {
   margin: 1rem;
   width: 20rem;
   color: hsl(220, 15%, 55%);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /*# sourceMappingURL=style.css.map */
