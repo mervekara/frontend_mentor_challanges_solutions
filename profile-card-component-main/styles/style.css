@@ -52,7 +52,7 @@ body {
   padding-bottom: 1.25rem;
   font-size: 1.125rem;
 }
-.profile-card-middle h3 {
+.profile-card-middle .name {
   color: var(--very-dark-desaturated-blue);
   font-weight: bold;
   margin: 0 0 0.25rem 0;
@@ -67,19 +67,31 @@ body {
   font-weight: 400;
 }
 .profile-card-bottom {
-  display: flex;
-  justify-content: space-around;
   border-top: 0.063rem solid #E8E9EC;
   padding: 0.625rem 1.25rem 1.875rem;
 }
-.profile-card-bottom h3 {
+.profile-card-bottom div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.profile-card-bottom .name {
   color: var(--very-dark-desaturated-blue);
   font-size: 1.125rem;
+  font-weight: bold;
   margin: 0 0 0.25rem 0;
+  padding-left: 0.75rem;
 }
-.profile-card-bottom span {
+.profile-card-bottom .name:last-child {
+  padding-left: 0;
+  padding-right: 0.25rem;
+}
+.profile-card-bottom .info {
   color: var(--dark-grayish-blue);
   font-size: 0.625rem;
+  margin: 0;
 }
 
 .attribution {

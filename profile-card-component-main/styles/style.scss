@@ -66,7 +66,7 @@ body {
         padding-bottom: 1.25rem;
         font-size: $font-size-bold;
 
-        h3 {
+        .name {
             color: var(--very-dark-desaturated-blue);
             font-weight: bold;
             margin: 0 0 0.25rem 0;
@@ -85,20 +85,34 @@ body {
     }
 
     &-bottom {
-        display: flex;
-        justify-content: space-around;
         border-top: 0.063rem solid #E8E9EC;
         padding: 0.625rem 1.25rem 1.875rem;
 
-        h3 {
-            color: var(--very-dark-desaturated-blue);
-            font-size: $font-size-bold;
-            margin: 0 0 0.25rem 0;
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
         }
 
-        span {
+        .name {
+            color: var(--very-dark-desaturated-blue);
+            font-size: $font-size-bold;
+            font-weight: bold;
+            margin: 0 0 0.25rem 0;
+            padding-left: 0.75rem;
+        }
+
+        .name:last-child {
+            padding-left: 0;
+            padding-right: 0.25rem;
+        }
+
+        .info {
             color: var(--dark-grayish-blue);
             font-size: $font-size-small;
+            margin: 0;
         }
     }
 }
